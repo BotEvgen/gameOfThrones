@@ -66,7 +66,7 @@ export default class App extends React.Component {
                         <Btn onClick={this.changeChar}>Char</Btn>
                      </Col>
                   </Row>
-                  <Route path='/' exact component={() => <h1>Welcome to BD</h1>} />
+                  <Route path='/' exact component={() => <h1 className='greeting'>Welcome to BD. Choose page</h1>} />
                   <Route path='/characters' component={CharacterPage} />
                   <Route path='/houses' component={HousePage} />
                   <Route path='/books' exact component={BookPage} />
